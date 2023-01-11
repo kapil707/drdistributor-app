@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Track_order_page"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dip">
+
+        <fragment
+            android:id="@+id/mapNearBy"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/rvToolbar"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="7dip"
+        android:background="@drawable/login_page_shap"
+        android:layout_gravity="right"
+        android:gravity="right">
+        <LinearLayout
+            android:id="@+id/sec1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:orientation="horizontal"
+                android:layout_marginRight="50dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dip"
+                    android:textColor="#ffffff"
+                    android:text="Arriving in : "
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/map_time"
+                    android:textSize="16dip"
+                    android:textColor="#ffffff"
+                    android:text="29 mins."
+                    android:layout_marginRight="5dip"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                app:srcCompat="@drawable/delivery_new"
+                android:layout_marginLeft="-50dip"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/page_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:textColor="#ffffff"
+            android:text="Loading...."
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:gravity="right"/>
+
+        <TextView
+            android:id="@+id/page_msg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textColor="#ffffff"
+            android:text=""
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_gravity="right"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/sec2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/home_page_box_shap1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    app:srcCompat="@drawable/deliveryboy" />
+
+                <TextView
+                    android:id="@+id/biker_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dip"
+                    android:textColor="#000"
+                    android:text="DR. Distributor"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:layout_marginTop="-5dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"/>
+
+                <Button
+                    android:id="@+id/biker_mobile"
+                    android:text="Call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_shap"
+                    android:textColor="#ffffff"
+                    android:padding="0dip"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sec3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <Button
+                android:id="@+id/searchmedicine"
+                android:text="Make new order / search medicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/login_btn_shap"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGetDirection1"
+                android:text="My location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/login_btn_shap"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnGetDirection2"
+                android:text="Rider location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/login_btn_shap"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

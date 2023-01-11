@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Account_edit"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="85dip"
+            android:layout_marginBottom="10dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/home_page_box_shap1"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip">
+
+                    <ImageView
+                        android:id="@+id/u_img"
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        app:srcCompat="@drawable/logo"
+                        android:layout_marginLeft="5dip"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dip"
+                        android:layout_gravity="left">
+
+                        <TextView
+                            android:id="@+id/u_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="Name"
+                            android:textColor="@color/usercolor"
+                            android:textSize="20dip"
+                            android:gravity="left"
+                            android:layout_gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/u_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:maxLines="1"
+                            android:text="code"
+                            android:textColor="@color/useraltercodecolor"
+                            android:textSize="16dip"
+                            android:gravity="left"
+                            android:layout_gravity="left"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="270dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginBottom="20dip"
+                    android:layout_below="@+id/buttonSelect"
+                    android:layout_above="@+id/editTextImageName" />
+
+                <LinearLayout
+                    android:id="@+id/SelectImageGallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="50dip"
+                    android:background="@drawable/home_page_down_btn"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        app:srcCompat="@drawable/photo1"
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_margin="3dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dip"
+                        android:gravity="left|center"
+                        android:text="Select image from gallery"
+                        android:textSize="15dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/home_page_title_clr"/>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update image"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="30dip"
+                    android:id="@+id/buttonUpload"
+                    android:background="@drawable/login_btn_shap"
+                    android:textColor="#ffffff"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/buttonUpload1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_shap_dis"
+                    android:text="Update image"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="30dip"
+                    android:textColor="#ffffff"
+                    android:textAllCaps="false"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/login_page_shap"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:id="@+id/menu_search_div_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/menu_search_shap">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    app:srcCompat="@drawable/search_img_b" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search medicines / company"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/home_page_title_clr"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/header_result_found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading...."
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:background="#10847e">
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Filter"
+            android:textColor="#ffffff"
+            android:textSize="22dip"
+            android:layout_margin="5dip"/>
+            -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:gravity="center"
+            android:id="@+id/sort_price">
+
+            <!--
+            <ImageView
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sort_price"
+                android:gravity="right"
+                android:layout_margin="5dip"/>
+            -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="By Price"
+                android:textColor="#ffffff"
+                android:textSize="18dip"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:gravity="center"
+            android:id="@+id/sort_price1">
+
+            <!--
+            <ImageView
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sort_price1"
+                android:gravity="right"
+                android:layout_margin="5dip"/>
+            -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="By Price Descending"
+                android:textColor="#ffffff"
+                android:textSize="18dip"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:gravity="center"
+            android:id="@+id/sort_atoz">
+
+            <!--
+            <ImageView
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sort_atoz"
+                android:gravity="right"
+                android:layout_margin="5dip"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="By Name"
+                android:textColor="#ffffff"
+                android:textSize="18dip"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:gravity="center"
+            android:id="@+id/sort_ztoa">
+
+            <!--
+           <ImageView
+               android:layout_width="20dip"
+               android:layout_height="20dip"
+               android:adjustViewBounds="true"
+               android:src="@drawable/sort_ztoa"
+               android:gravity="right"
+               android:layout_margin="5dip"/>
+            -->
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="By Medicine Descending"
+               android:textColor="#ffffff"
+               android:textSize="18dip"
+               android:layout_margin="5dip"/>
+       </LinearLayout>
+   </LinearLayout>
+</RelativeLayout>

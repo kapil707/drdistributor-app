@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">D R Distributors</string>
+    <string name="title_activity_home_page">Home_page</string>
+    <string name="rs">\u20A8</string>
+
+    <string name="main_title_name">D. R. Distributors Pvt. Ltd.</string>
+    <string name="comp_name">D. R. Distributors Pvt. Ltd.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Change_Chemist_text"><u>Change Chemist</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_order_detail">Order_detail</string>
+    <string name="title_activity_home_page_corporate">Home_page_corporate</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBi2NkQ-H6YCJcWJhjJhcDCgcJ4gf5cS7M</string>
+
+    <string name="usercolor">#27ae60</string>
+
+    <string name="titlecolor">#27ae60</string>
+    <string name="packingcolor">#ff9800</string>
+    <string name="expirycolor">#981e1e</string>
+    <string name="companycolor">#3f51b5</string>
+    <string name="stockcolor">#1084a1</string>
+    <string name="out_of_stockcolor">#d82b2b</string>
+    <string name="ptrcolor">#875546</string>
+    <string name="mrpcolor">#875546</string>
+    <string name="pricecolor">#3a4940</string>
+    <string name="gstcolor">#009688</string>
+    <string name="schemecolor">#c66464</string>
+    <string name="datetimecolor">#795548</string>
+    <string name="descriptioncolor">#685c5c</string>
+    <string name="description2color">#685c5c</string>
+
+    <string name="margincolor">#006064</string>
+
+
+    <!-- new 41 -->
+    <string name="item_name_color">#27ae60</string>
+    <string name="item_packing_color">#ff9800</string>
+    <string name="item_batch_no_color">#795548</string>
+    <string name="item_expiry_color">#981e1e</string>
+    <string name="item_company_color">#3f51b5</string>
+    <string name="item_stock_color">#1084a1</string>
+    <string name="item_out_of_stock_color">#d82b2b</string>
+    <string name="item_scheme_color">#c66464</string>
+    <string name="item_margin_color">#1084a1</string>
+    <string name="item_gst_color">#965400</string>
+
+    <string name="item_message_color">#685c5c</string>
+    <string name="item_date_time_color">#795548</string>
+    <string name="item_mrp_color">#795548</string>
+    <string name="item_ptr_color">#795548</string>
+    <string name="item_price_color">#3a4940</string>
+    <string name="item_price2_color">#795548</string>
+
+    <string name="item_scheme_line_color">#685c5c</string>
+    <string name="item_description1_color">#685c5c</string>
+    <string name="item_description2_color">#685c5c</string>
+</resources>

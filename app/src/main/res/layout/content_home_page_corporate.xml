@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.drdistributor.dr.Home_page_corporate"
+    tools:showIn="@layout/app_bar_home_page_corporate"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/webView"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/home_title"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/item_wise_report"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/item_wise_report"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Item Wise Daily"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/chemist_wise_report"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/chemist_wise_report"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Chemist Wise Daily"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/stock_and_sales_analysis"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/stock_and_sales_analysis"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Stock And Sales"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/item_wise_report_month"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/item_wise_report"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Item Wise Monthly"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/chemist_wise_report_month"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/chemist_wise_report"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Chemist Wise Monthly"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:id="@+id/notification"
+                    android:background="@drawable/home_page_box_shap">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/new_notification"
+                        android:background="@null"
+                        android:padding="5dip"
+                        android:layout_margin="5dip"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Message Notification"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <network-security-config>
+      <base-config cleartextTrafficPermitted="false">
+       <trust-anchors>
+        <certificates src="system" />
+       </trust-anchors>
+      </base-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://drdistributor.com/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">https://drdistributor.com/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://www.drdistributor.com/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">https://www.drdistributor.com/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://drdweb.co.in/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">https://drdweb.co.in/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://www.drdweb.co.in/</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">https://www.drdweb.co.in/</domain>
+    </domain-config>
+</network-security-config>

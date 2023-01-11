@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drdistributor.dr.Create_New_thank_you"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dip"
+        android:orientation="vertical"
+        android:background="@drawable/login_page_shap">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_marginTop="50dip"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@drawable/logo2" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/main_title_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textSize="25dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/create_new_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center"
+        android:text="Thank You, We will get back to you with your username and password."
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/go_home_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="50dip"
+            android:background="@drawable/login_btn_shap"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"/>
+
+</RelativeLayout>

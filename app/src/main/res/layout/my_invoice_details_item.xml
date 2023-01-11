@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/my_invoice_LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/listview_main_shap_all_pg"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:gravity="right"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/logo5" />
+
+                <ImageView
+                    android:id="@+id/item_featured_img"
+                    app:srcCompat="@drawable/featured_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitEnd"
+                    android:layout_marginLeft="-85dp"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/item_out_of_stock_img"
+                    app:srcCompat="@drawable/out_of_stock_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitEnd"
+                    android:layout_marginLeft="-85dp"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/item_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="item_name"
+                        android:gravity="left"
+                        android:textColor="@color/item_name_color"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:ellipsize="end"
+                        android:maxLines="2" />
+
+                    <TextView
+                        android:id="@+id/item_expiry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="item_expiry"
+                        android:gravity="left"
+                        android:textColor="@color/item_expiry_color"
+                        android:textSize="14dp"
+                        android:layout_marginTop="3dp"/>
+
+                    <TextView
+                        android:id="@+id/item_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="item_company"
+                        android:gravity="left"
+                        android:textColor="@color/item_company_color"
+                        android:textSize="15dp"
+                        android:layout_marginTop="3dp"
+                        android:ellipsize="end"
+                        android:maxLines="2" />
+
+                    <TextView
+                        android:id="@+id/item_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="item_quantity"
+                        android:textColor="@color/item_stock_color"
+                        android:textSize="14dp"
+                        android:layout_marginTop="3dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="item_price"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/item_price_color"
+                android:textSize="14dp"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/item_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="item_datetime"
+                android:textColor="@color/item_date_time_color"
+                android:textSize="14dp"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/item_description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item_price"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/item_description1_color"
+                android:textSize="14dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_delete_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/listview_main_shap_all_pg"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity changed and items deleted"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="@color/item_description1_color"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

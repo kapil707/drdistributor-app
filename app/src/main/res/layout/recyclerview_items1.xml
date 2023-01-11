@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/listview_main_shap_all_pg"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:orientation="vertical"
+            android:gravity="top|center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="110dip"
+                android:layout_height="55dip"
+                tools:srcCompat="@tools:sample/avatars"
+                android:background="@layout/imageround"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:gravity="top|center"
+                android:padding="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/home_page_comp_clr"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable-v21/add_to_cart_shap_rider.xml" value="0.1635" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable-v21/upto_off_shap.xml" value="0.1635" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/featured_shap.xml" value="0.116" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/header_menu_theme_shap.xml" value="0.1635" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/home_page_footer.xml" value="0.102" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/home_page_footer_add_new.xml" value="0.102" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/home_page_footer_left.xml" value="0.102" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/home_page_footer_right.xml" value="0.102" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/homebigsearch_shap.xml" value="0.113" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/listview_main_shap_all_pg.xml" value="0.113" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/login_box_shap.xml" value="0.1845" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/login_or_create_shap1.xml" value="0.1635" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/login_page_shap.xml" value="0.1845" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/margin_shap.xml" value="0.116" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/medicine_add_qty_shap.xml" value="0.1635" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/menu_search_shap.xml" value="0.113" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/menubigsearch_shap.xml" value="0.113" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/drawable/out_of_stock_shap.xml" value="0.116" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/activity_otp_page.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/add_to_cart_shap.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/add_to_cart_shap3.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/cart_remove_popup.xml" value="0.18" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/chemist_search_item.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/chemist_webview.xml" value="0.12158054711246201" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/content_home_page.xml" value="0.214190093708166" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/content_home_page_corporate.xml" value="0.18342391304347827" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/create_new.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/create_new_thank_you.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/featured_brand.xml" value="0.128" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/featured_brand_item.xml" value="0.2" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/force_update.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/home_page.xml" value="0.12158054711246201" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/home_page_main_menu_item.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/imageround.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/imageround2.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/login_before.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/login_btn_shap_dis.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_add.xml" value="0.27360308285163776" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_add_smiler.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_cart.xml" value="0.2303370786516854" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_cart_chemist.xml" value="0.12158054711246201" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_cart_chemist_item.xml" value="0.33" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_cart_item.xml" value="0.39490445859872614" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_category.xml" value="0.264" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_category_item.xml" value="0.264" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_delete.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_details.xml" value="0.2" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_search.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_search_item.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_search_mic.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/medicine_shceme_shap.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/menu.xml" value="0.40632054176072235" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/menu1.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_cart.xml" value="0.264" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_cart_item.xml" value="0.25" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_invoice.xml" value="0.4921190893169877" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_invoice_details.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_invoice_details_item.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_invoice_item.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_notification.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_notification_details.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_notification_details_item.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_notification_item.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_order.xml" value="0.264" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_order_details.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_order_details_item.xml" value="0.3185840707964602" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_order_item.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_orders.xml" value="0.2427536231884058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/my_place_order.xml" value="0.18342391304347827" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/nav_header_home_page.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/nointernet.xml" value="0.16" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/place_order.xml" value="0.12158054711246201" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/place_order_thank_you.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/ratingbar.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/ratingbar2.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items0.xml" value="0.22" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items1.xml" value="0.536" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items2.xml" value="0.264" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items3.xml" value="0.2" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items4.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/recyclerview_items5.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/search_medicine.xml" value="0.2" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/search_medicine_item.xml" value="0.2757281553398058" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/select_chemist.xml" value="0.2" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/select_chemist_item.xml" value="0.4" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/track_order_page.xml" value="0.125" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/under_construction.xml" value="0.12158054711246201" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/update_available.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/user_account.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/user_account_edit.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/user_change_password.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/layout/user_image_uploading.xml" value="0.1" />
+        <entry key="..\:/project/android/rishi/Drdistributor/app/src/main/res/menu/activity_home_page_drawer.xml" value="0.24615384615384617" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

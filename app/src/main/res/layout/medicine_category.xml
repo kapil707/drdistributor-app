@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medicine_category"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/background"
+            android:divider="@color/background_gray_color"
+            android:dividerHeight="0dp"
+            android:listSelector="@drawable/list_selector"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:layout_marginTop="80dip"
+            tools:ignore="MissingConstraints"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"></GridView>
+
+        <ImageView
+            android:id="@+id/no_record_found_img"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/no_record_found"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/loading_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100pt"
+            android:layout_marginLeft="58pt"
+            android:background="@drawable/listview_main_shap_all_pg"
+            tools:ignore="MissingConstraints"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:src="@drawable/logo5" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:text="Please wait...."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/login_page_shap"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/menu_search_div_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/menu_search_shap">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                app:srcCompat="@drawable/search_img_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search medicines / company"
+                android:layout_margin="5dp"
+                android:textColor="@color/home_page_title_clr"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/header_result_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading...."
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

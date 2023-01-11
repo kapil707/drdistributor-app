@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_report"
+            android:icon="@drawable/item_wise"
+            android:title="Item Report" />
+        <item
+            android:id="@+id/item_report_monthly"
+            android:icon="@drawable/item_wise_month"
+            android:title="Item Report Monthly" />
+        <item
+            android:id="@+id/chemist_report"
+            android:icon="@drawable/item_wise"
+            android:title="Chemist Report" />
+        <item
+            android:id="@+id/chemist_report_monthly"
+            android:icon="@drawable/item_wise_month"
+            android:title="Chemist Report Monthly" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/phone"
+                android:title="Phone" />
+            <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/whatsapp"
+                android:title="Whatsapp" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/email"
+                android:title="Email" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/privacy_policy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

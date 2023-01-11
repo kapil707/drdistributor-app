@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27ae60</color>
+    <color name="trans">#80383838</color>
+    <color name="colorPrimaryDark">#27ae60</color>
+    <color name="colorAccent">#27ae60</color>
+    <color name="background_white">#ffffff</color>
+    <color name="login_page_color1">#6A6767</color>
+
+    <color name="home_page_title_clr">#6A6767</color>
+    <color name="home_page_comp_clr">#6A6767</color>
+    <color name="schemeclr">#ce6442</color>
+
+    <color name="red">#e80707</color>
+
+    <color name="background_gray_color">#F6F6F6</color>
+
+    <color name="home_page_title">#252525</color>
+    <color name="font_white">#000000</color>
+    <color name="font_black">#000000</color>
+    <color name="font_white1">#ffffff</color>
+    <color name="pagebg">#E7E7E7</color>
+
+    <color name="carttotalcolor">#ff9800</color>
+
+    <color name="usercolor">#27ae60</color>
+    <color name="useraltercodecolor">#ff9800</color>
+
+    <color name="titlecolor">#27ae60</color>
+    <color name="packingcolor">#ff9800</color>
+    <color name="batchnocolor">#009688</color>
+    <color name="expirycolor">#981e1e</color>
+    <color name="companycolor">#3f51b5</color>
+    <color name="stockcolor">#1084a1</color>
+    <color name="out_of_stockcolor">#d82b2b</color>
+    <color name="ptrcolor">#875546</color>
+    <color name="mrpcolor">#875546</color>
+    <color name="pricecolor">#3a4940</color>
+    <color name="gstcolor">#009688</color>
+    <color name="schemecolor">#c66464</color>
+    <color name="datetimecolor">#795548</color>
+    <color name="descriptioncolor">#685c5c</color>
+    <color name="description2color">#685c5c</color>
+    <color name="schemelinecolor">#685c5c</color>
+
+    <color name="margincolor">#006064</color>
+
+
+    <!-- new 41 -->
+    <color name="item_cart_total_color">#ff9800</color>
+
+    <color name="chemist_name_color">#27ae60</color>
+    <color name="chemist_altercode_color">#ff9800</color>
+
+    <color name="item_menu_color">#27ae60</color>
+    <color name="item_view_all_color">#1A237E</color>
+
+    <color name="item_name_color">#27ae60</color>
+    <color name="item_packing_color">#ff9800</color>
+    <color name="item_batch_no_color">#795548</color>
+    <color name="item_expiry_color">#981e1e</color>
+    <color name="item_company_color">#3f51b5</color>
+    <color name="item_stock_color">#1084a1</color>
+    <color name="item_out_of_stock_color">#d82b2b</color>
+    <color name="item_scheme_color">#c66464</color>
+    <color name="item_margin_color">#1084a1</color>
+    <color name="item_gst_color">#965400</color>
+
+    <color name="item_message_color">#685c5c</color>
+    <color name="item_date_time_color">#795548</color>
+    <color name="item_mrp_color">#795548</color>
+    <color name="item_ptr_color">#795548</color>
+    <color name="item_price_color">#3a4940</color>
+    <color name="item_price2_color">#795548</color>
+
+    <color name="item_scheme_line_color">#685c5c</color>
+    <color name="item_description1_color">#685c5c</color>
+    <color name="item_description2_color">#685c5c</color>
+</resources>
